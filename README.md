@@ -1,7 +1,7 @@
 # binary_trees
 
 
-        <h2>Concepts</h2>
+<h2>Concepts</h2>
 
   <div class="panel panel-default">
     <div class="panel-body">
@@ -9,7 +9,7 @@
         <em>For this project, students are expected to look at these concepts:</em>
       </p>
 
-      <ul>
+<ul>
           <li>
             <a href="/concepts/12">DNS</a>
           </li>
