@@ -89,3 +89,7 @@
 <li>Similarly in a job interview, you should answer what the interviewer asked for, be careful about being too verbose - always ask the interviewer if going into details is necessary - speaking too much can play against you</li>
 <li>In this project, again, avoid going in details if not asked</li>
 </ul>
+
+### Authors 
+* Kenia López | [GitHub](https://github.com/kenialo19) |
+* Jessica Sanabria | [GitHub](https://github.com/JessicaJulieth) |
