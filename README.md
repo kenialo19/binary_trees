@@ -1,73 +1,30 @@
 # binary_trees
 
-
-<h2>Concepts</h2>
-
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <p>
-        <em>For this project, students are expected to look at these concepts:</em>
-      </p>
-
-<ul>
-          <li>
-            <a href="/concepts/12">DNS</a>
-          </li>
-          <li>
-            <a href="/concepts/13">Monitoring</a>
-          </li>
-          <li>
-            <a href="/concepts/17">Web Server</a>
-          </li>
-          <li>
-            <a href="/concepts/33">Network basics</a>
-          </li>
-          <li>
-            <a href="/concepts/46">Load balancer</a>
-          </li>
-          <li>
-            <a href="/concepts/67">Server</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-
-<div class="well clean" id="project-description">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/lQNEW76KdYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2>Resources</h2>
+ <h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><strong>Network basics</strong> concept page</li>
-<li><strong>Server</strong> concept page</li>
-<li><strong>Web server</strong> concept page</li>
-<li><strong>DNS</strong> concept page</li>
-<li><strong>Load balancer</strong> concept page</li>
-<li><strong>Monitoring</strong> concept page</li>
-<li><a href="/rltoken/ZbnRbvp1926PRxMG3_8fZA" title="What is a database" target="_blank">What is a database</a> </li>
-<li><a href="/rltoken/Nb8B47Y2D8SLqQMOKVoQyQ" title="What&#39;s the difference between a web server and an app server?" target="_blank">What&rsquo;s the difference between a web server and an app server?</a></li>
-<li><a href="/rltoken/ojwHUACZEtIWfI9M6i7c3g" title="DNS record types" target="_blank">DNS record types</a> </li>
-<li><a href="/rltoken/wYpewVpIp9PSqqL27RPafg" title="Single point of failure" target="_blank">Single point of failure</a> </li>
-<li><a href="/rltoken/Mlvynt0OgLQXrxjrC5Wlnw" title="How to avoid downtime when deploying new code" target="_blank">How to avoid downtime when deploying new code</a> </li>
-<li><a href="/rltoken/POX3jE0S6TChQHSYQraYeQ" title="High availability cluster (active-active/active-passive)" target="_blank">High availability cluster (active-active/active-passive)</a> </li>
-<li><a href="/rltoken/N4BwU4wYDNW02kdzMiekFw" title="What is HTTPS" target="_blank">What is HTTPS</a> </li>
-<li><a href="/rltoken/ZFTutaKN4wWzmL4fWhQmeg" title="What is a firewall" target="_blank">What is a firewall</a> </li>
+<li><a href="/rltoken/YjCgugjFZBKqIeU2_lF-fQ" title="Binary tree" target="_blank">Binary tree</a> (<em>note the first line: <code>Not to be confused with B-tree.</code></em>)</li>
+<li><a href="/rltoken/YERnIz9OggXbBoXpiqSMEw" title="Data Structure and Algorithms - Tree" target="_blank">Data Structure and Algorithms - Tree</a> </li>
+<li><a href="/rltoken/pR4-vwFxzbph4FkMF2np1Q" title="Tree Traversal" target="_blank">Tree Traversal</a> </li>
+<li><a href="/rltoken/L2CpULSk9hQEOBKaGI8IkQ" title="Binary Search Tree" target="_blank">Binary Search Tree</a> </li>
+<li><a href="/rltoken/jQNFgIuh8O73TqIaFeQoPA" title="Data structures: Binary Tree" target="_blank">Data structures: Binary Tree</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/Dvn7v5U404zIccrJ_jDevg" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="/rltoken/klZNog2ow2uGuFNMvk8mAQ" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
 <ul>
-<li>You must be able to draw a diagram covering the web stack you built with the sysadmin/devops track projects</li>
-<li>You must be able to explain what each component is doing</li>
-<li>You must be able to explain system redundancy</li>
-<li>Know all the mentioned acronyms: LAMP, SPOF, QPS</li>
+<li>What is a binary tree</li>
+<li>What is the difference between a binary tree and a Binary Search Tree</li>
+<li>What is the possible gain in terms of time complexity compared to linked lists</li>
+<li>What are the depth, the height, the size of a binary tree</li>
+<li>What are the different traversal methods to go through a binary tree</li>
+<li>What is a complete, a full, a perfect, a balanced binary tree</li>
 </ul>
 
 <h2>Requirements</h2>
@@ -75,20 +32,73 @@
 <h3>General</h3>
 
 <ul>
+<li>Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code></li>
+<li>All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89</li>
+<li>All your files should end with a new line</li>
 <li>A <code>README.md</code> file, at the root of the folder of the project, is mandatory</li>
-<li>For each task, once you are done whiteboarding (on a whiteboard, piece of paper or software or your choice), take a picture/screenshot of your diagram</li>
-<li>This project will be manually reviewed:</li>
-<li>As each task is completed, the name of that task will turn green</li>
-<li>Upload a screenshot, showing that you completed the required levels, to any image hosting service (I personally use <a href="/rltoken/QorG0rvw1PzqWBVrqWW6Sg" title="imgur" target="_blank">imgur</a> but feel free to use anything you want). </li>
-<li>For the following tasks, insert the link from of your screenshot into the answer file </li>
-<li>After pushing your answer file to GitHub, insert the GitHub file link into the URL box</li>
-<li>You will also have to whiteboard each task in front of a mentor, staff or student - no computer or notes will be allowed during the whiteboarding session</li>
-<li>Focus on what you are being asked: </li>
-<li>Cover what the requirements mention, we will explore details in a later project</li>
-<li>Keep in mind that you will have 30 minutes to perform the exercise, you will get points for what is asked in requirements</li>
-<li>Similarly in a job interview, you should answer what the interviewer asked for, be careful about being too verbose - always ask the interviewer if going into details is necessary - speaking too much can play against you</li>
-<li>In this project, again, avoid going in details if not asked</li>
+<li>Your code should use the <code>Betty</code> style. It will be checked using <a href="https://github.com/holbertonschool/Betty/blob/master/betty-style.pl" title="betty-style.pl" target="_blank">betty-style.pl</a> and <a href="https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl" title="betty-doc.pl" target="_blank">betty-doc.pl</a></li>
+<li>You are not allowed to use global variables</li>
+<li>No more than 5 functions per file</li>
+<li>You are allowed to use the standard library</li>
+<li>In the following examples, the <code>main.c</code> files are shown as examples. You can use them to test your functions, but you don&rsquo;t have to push them to your repo (if you do we won&rsquo;t take them into account). We will use our own <code>main.c</code> files at compilation. Our <code>main.c</code> files might be different from the one shown in the examples</li>
+<li>The prototypes of all your functions should be included in your header file called <code>binary_trees.h</code></li>
+<li>Don&rsquo;t forget to push your header file</li>
+<li>All your header files should be include guarded</li>
 </ul>
+
+<h3>GitHub</h3>
+
+<p><strong>There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.</strong></p>
+
+<h2>More Info</h2>
+
+<h3>Data structures</h3>
+
+<p>Please use the following data structures and types for binary trees. Don&rsquo;t forget to include them in your header file.</p>
+
+<h4>Basic Binary Tree</h4>
+
+<pre><code>/**
+ * struct binary_tree_s - Binary tree node
+ *
+ * @n: Integer stored in the node
+ * @parent: Pointer to the parent node
+ * @left: Pointer to the left child node
+ * @right: Pointer to the right child node
+ */
+struct binary_tree_s
+{
+    int n;
+    struct binary_tree_s *parent;
+    struct binary_tree_s *left;
+    struct binary_tree_s *right;
+};
+
+typedef struct binary_tree_s binary_tree_t;
+</code></pre>
+
+<h4>Binary Search Tree</h4>
+
+<pre><code>typedef struct binary_tree_s bst_t;
+</code></pre>
+
+<h4>AVL Tree</h4>
+
+<pre><code>typedef struct binary_tree_s avl_t;
+</code></pre>
+
+<h4>Max Binary Heap</h4>
+
+<pre><code>typedef struct binary_tree_s heap_t;
+</code></pre>
+
+<p><strong>Note:</strong> For tasks 0 to 23 (included), you have to deal with simple binary trees. They are not BSTs, thus they don&rsquo;t follow any kind of rule.</p>
+
+<h3>Print function</h3>
+
+<p>To match the examples in the tasks, you are given <a href="https://github.com/holbertonschool/0x1C.c" title="this function" target="_blank">this function</a></p>
+
+<p>This function is used only for visualization purposes. You don&rsquo;t have to push it to your repo. It may not be used during the correction</p>
 
 ### Authors 
 * Kenia López | [GitHub](https://github.com/kenialo19) |
